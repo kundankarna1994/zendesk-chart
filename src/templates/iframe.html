@@ -1,0 +1,17 @@
+<!-- <%= htmlWebpackPlugin.options.warning %> -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <section id="root" data-main class="main">
+      <img class="loader" src="spinner.gif" />
+    </section>
+    <script src="https://static.zdassets.com/zendesk_app_framework_sdk/2.0/zaf_sdk.min.js"></script>
+    <% _.forEach(htmlWebpackPlugin.options.vendorJs, function(js) { %>
+    <script type="text/javascript" src="<%= js %>"></script>
+    <% }); %>
+  </body>
+</html>

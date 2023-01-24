@@ -1,0 +1,20 @@
+{
+  "name": "Ticket Reports",
+  "author": {
+    "name": "Kundan",
+    "email": "kundan.karna@proshore.eu"
+  },
+  "defaultLocale": "en",
+  "private": true,
+  "location": {
+    "support": {
+      "background": "assets/background.html",
+      "nav_bar": {
+        "autoHide": true,
+        "url": "assets/nav_bar.html"
+      }
+    }
+  },
+  "version": "1.0",
+  "frameworkVersion": "2.0"
+}
